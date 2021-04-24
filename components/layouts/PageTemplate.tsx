@@ -1,8 +1,9 @@
 import Head from "next/head"
+import React from "react"
 
 import Header from "./Header"
 import Footer from "./Footer"
-import React from "react"
+import ScrollUp from "../utils/ScrollUp"
 
 interface PageTemplateProps {
   children: React.ReactElement
@@ -21,6 +22,7 @@ const PageTemplate = ({ children, title }: PageTemplateProps) => {
       <main>
         {children}
       </main>
+      <ScrollUp />
       <footer>
         <Footer />
       </footer>

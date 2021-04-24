@@ -18,6 +18,7 @@
     "react-dom": "17.0.2",
     "react-items-carousel": "^2.8.0",
     "react-material-ui-carousel": "^2.2.4",
+    "react-scroll-to-top": "^1.0.5",
     "react-share": "^4.4.0",
     "sass": "^1.32.11"
   },
