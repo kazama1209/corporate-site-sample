@@ -31,14 +31,8 @@ const Recruit: React.FC = () => {
       name: "Designer"
     },
     {
-      name: "Manager"
-    },
-    {
       name: "Marketer"
-    },
-    {
-      name: "Salesman"
-    },
+    }
   ]
 
   const images: string[] = [
