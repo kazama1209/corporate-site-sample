@@ -66,7 +66,7 @@ const Footer = () => {
           justify="center"
         >
           <Typography className={classes.copylight}>
-            &copy;2021 Sample
+            &copy;{new Date().getFullYear()} Sample
           </Typography>
         </Grid>
       </Container>
